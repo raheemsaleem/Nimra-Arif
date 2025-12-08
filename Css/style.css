@@ -1,0 +1,81 @@
+
+        body {
+            font-family: "Poppins", sans-serif;
+            transition: 0.3s ease;
+        }
+        .navbar {
+            background: linear-gradient(to right, #4b79a1, #283e51);
+            padding: 15px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .navbar-brand {
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff !important;
+        }
+        .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+        }
+        .custom-card {
+            border-radius: 12px;
+            padding: 25px;
+            background: #ffffff;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            transition: 0.4s ease;
+        }
+        .custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 25px rgba(0,0,0,0.2);
+        }
+        .section-title {
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 25px;
+            border-left: 5px solid #4b79a1;
+            padding-left: 10px;
+        }
+        .typing-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #4b79a1;
+            border-right: 3px solid #4b79a1;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 4s steps(40) forwards, blink 0.7s infinite;
+        }
+        @keyframes typing { from { width: 0; } to { width: 100%; } }
+        @keyframes blink { 50% { border-color: transparent; } }
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid #4b79a1;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+        }
+        footer {
+            background: #283e51;
+            color: white;
+            padding: 25px 0;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .dark-mode {
+            background: #0d0d0d !important;
+            color: #eaeaea;
+        }
+        .dark-mode .navbar {
+            background: #000 !important;
+        }
+        .dark-mode .custom-card {
+            background: #1f1f1f;
+            color: white;
+        }
+        .toggle-btn {
+            border-radius: 50%;
+            padding: 8px 12px;
+            background: #fff;
+        }
+   
